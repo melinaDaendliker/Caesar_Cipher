@@ -23,7 +23,6 @@ def caesar_cipher(text, shift)
         encoded.push(number.chr)
     }
     encoded_string = encoded.join("")
-    puts encoded_string
 end 
 
 caesar_cipher("What a string!", 5)
